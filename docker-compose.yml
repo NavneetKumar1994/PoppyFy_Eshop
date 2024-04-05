@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+    frontend: 
+      build: ./frontend 
+      container_name: poppyFy-ui
+      ports:
+         - "3000:3000"
+      stdin_open: true
+      tty: true
+      depends_on: 
+         - backend
+      networks:
+         - poppyFy-network      
+
+    backend:
+      build: ./backend
+      container_name: poppyFy-api
+      restart: always
+      ports:
+         - "4000:4000"
+      depends_on: 
+         - database
+      networks:
+         - poppyFy-network 
+    
+    database:
+      image: mongo
+      container_name: poppyFy-mongo-db
+      ports:
+         - "27018:27017"
+      volumes:
+         - ./mongo-backup:/data/db
+      networks:
+         - poppyFy-network 
+
+networks:
+   poppyFy-network:
+     driver: bridge

@@ -1,0 +1,162 @@
+[
+     {
+       "name": "Product 1",
+       "price": 19.99,
+       "description": "This is the description for Product 1.",
+       "ratings": 4,
+       "images": [
+         {
+           "public_id": "image1",
+           "url": "https://example.com/image1.jpg"
+         }
+       ],
+       "category": "Electronics",
+       "seller": "Seller 1",
+       "stock": 50,
+       "reviews": [
+         {
+           "name": "Reviewer 1",
+           "rating": 4,
+           "comment": "Good product!"
+         },
+         {
+           "name": "Reviewer 2",
+           "rating": 5,
+           "comment": "Excellent quality."
+         }
+       ]
+     },
+     {
+       "name": "Product 2",
+       "price": 29.99,
+       "description": "This is the description for Product 2.",
+       "ratings": 3,
+       "images": [
+         {
+           "public_id": "image10",
+           "url": "https://example.com/image2.jpg"
+         }
+       ],
+       "category": "Books",
+       "seller": "Seller 2",
+       "stock": 20,
+       "reviews": [
+         {
+           "name": "Reviewer 2",
+           "rating": 3,
+           "comment": "Average product."
+         }
+       ]
+     },
+     {
+          "name": "Product 11",
+          "price": 39.99,
+          "description": "This is the description for Product 11.",
+          "ratings": 4.5,
+          "images": [
+            {
+              "public_id": "image11",
+              "url": "https://example.com/image11.jpg"
+            }
+          ],
+          "category": "Accessories",
+          "seller": "Seller 11",
+          "stock": 30,
+          "reviews": [
+            {
+              "name": "Reviewer 11",
+              "rating": 4,
+              "comment": "Satisfied with the purchase."
+            }
+          ]
+        },
+        {
+          "name": "Product 12",
+          "price": 49.99,
+          "description": "This is the description for Product 12.",
+          "ratings": 3.5,
+          "images": [
+            {
+              "public_id": "image12",
+              "url": "https://example.com/image12.jpg"
+            }
+          ],
+          "category": "Food",
+          "seller": "Seller 12",
+          "stock": 25,
+          "reviews": [
+            {
+              "name": "Reviewer 12",
+              "rating": 3,
+              "comment": "Taste could be better."
+            }
+          ]
+        },
+        {
+          "name": "Product 13",
+          "price": 59.99,
+          "description": "This is the description for Product 13.",
+          "ratings": 4,
+          "images": [
+            {
+              "public_id": "image13",
+              "url": "https://example.com/image13.jpg"
+            }
+          ],
+          "category": "Clothes",
+          "seller": "Seller 13",
+          "stock": 40,
+          "reviews": [
+            {
+              "name": "Reviewer 13",
+              "rating": 5,
+              "comment": "Perfect fit!"
+            }
+          ]
+        },
+        {
+          "name": "Product 14",
+          "price": 69.99,
+          "description": "This is the description for Product 14.",
+          "ratings": 4.8,
+          "images": [
+            {
+              "public_id": "image14",
+              "url": "https://example.com/image14.jpg"
+            }
+          ],
+          "category": "Shoes",
+          "seller": "Seller 14",
+          "stock": 15,
+          "reviews": [
+            {
+              "name": "Reviewer 14",
+              "rating": 4,
+              "comment": "Comfortable and stylish."
+            }
+          ]
+        },
+        {
+          "name": "Product 15",
+          "price": 79.99,
+          "description": "This is the description for Product 15.",
+          "ratings": 4.2,
+          "images": [
+            {
+              "public_id": "image15",
+              "url": "https://example.com/image15.jpg"
+            }
+          ],
+          "category": "Home",
+          "seller": "Seller 15",
+          "stock": 35,
+          "reviews": [
+            {
+              "name": "Reviewer 15",
+              "rating": 4,
+              "comment": "Great addition to my home."
+            }
+          ]
+        }
+   ]
+   
